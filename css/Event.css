@@ -10,7 +10,7 @@ body {
 }
 
 .hero-main {
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('images/cover4.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/cover4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -79,7 +79,12 @@ body {
 }
 
 .btn-contact button {
-    
+    background-color: #b87e98;
+    border: none;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn-contact a {
